@@ -1,2 +1,2 @@
 # Financiero
-Proyecto de analisis financiero.
+Proyecto de la materia Analisis Financiero.
