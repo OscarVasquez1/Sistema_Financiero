@@ -1,0 +1,26 @@
+.opciones-horizontal {
+  background-color: #c2ba9a;
+  border-radius: 30px 30px 30px 30px;
+  border: 1px solid #060b26;
+  color: #060b26;
+}
+
+.opciones-vetical {
+  background-color: #186a79;
+  border-radius: 30px 30px 30px 30px;
+  border: 1px solid #060b26;
+  color: white;
+}
+
+.opciones-ratios{
+  background-color: #32658D;
+  border-radius: 30px 30px 30px 30px;
+  border: 1px solid #060b26;
+  color:white;
+}
+
+
+
+.no-ver {
+  display: none;
+}

@@ -1,0 +1,36 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+class CreateRatioSectoresTable extends Migration
+{
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+        Schema::create('ratio_sectores', function (Blueprint $table) {
+            $table->id();
+            $table->float("parametro_comparacion", 18, 2);
+            $table->unsignedBigInteger("actividad_economicas_id");
+            $table->foreign("actividad_economicas_id")->references("id")->on("actividad_economicas")->onDelete("cascade");
+            $table->unsignedBigInteger("ratios_id");
+            $table->foreign("ratios_id")->references("id")->on("ratios")->onDelete("cascade");
+            $table->timestamps();
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+        Schema::dropIfExists('ratio_sectores');
+    }
+}

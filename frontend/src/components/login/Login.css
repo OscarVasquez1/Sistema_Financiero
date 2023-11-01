@@ -1,0 +1,43 @@
+.form-container{
+	height:100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.formulario{
+	padding-top: 10px;
+	font-size: 14px;
+	margin-top: 30px;
+}
+
+.boton{
+	font-size: 17px;
+}
+
+.titulo{
+    color:#0D4E80;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.login-form{ 
+	width:330px;
+	margin:20px;
+    border-radius: 20px 20px 20px 20px !important;
+    border: 1px solid #32658D !important;
+    box-shadow: 1px 1px 1px #919191, 
+    1px 1px 1px #919191, 
+    1px 1px 1px #919191,
+    1px 1px 1px #919191, 
+    1px 1px 1px #919191, 
+    1px 1px 1px #919191, 
+    1px 18px 6px rgba(16, 16, 16, 0.4),
+    1px 22px 10px rgba(16, 16, 16, 0.2), 
+    1px 25px 35px rgba(16, 16, 16, 0.2),
+    1px 30px 60px rgba(16, 16, 16, 0.4);
+}
+
+.texto-boton{
+    padding-left: 8px;
+}

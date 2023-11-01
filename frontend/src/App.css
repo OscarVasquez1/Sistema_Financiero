@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*Clase Propia*/
+.graficoOculto{
+  display: none !important;
+}
+
+.cuadro-empresa{
+  border-radius: 30px 30px 15px 15px !important;
+  border: 1px solid #060b26 !important;
+}
+
+
